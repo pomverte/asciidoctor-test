@@ -1,0 +1,16 @@
+.Exemple de coloration
+[source, xml]
+----
+<int:splitter input-channel="inputChannel" <1>
+  output-channel="outputChannel" <2>
+  expression="payload.propositions" /> <3>
+----
+<1> message is read from `inputChannel`
+<2> message is written in `outputChannel`
+<3> SpEl
+
+// include from source file !
+[source, xml]
+----
+include::../../../pom.xml[tags=properties]
+----

@@ -1,0 +1,27 @@
+= Trajet RATP
+PoMverte <pom@mail.com>
+:toc:
+
+== Trajet le plus rapide
+WARNING: Un incident majeur a lieu sur votre itinerairé.
+
+Temps de parcours normal donné  titre indicatif : 27 min
+
+=== Nanterre-Préfecture (RER), Nanterre
+Aller jusqu' Nanterre-Préfecture
+
+=== Direction La Varenne-Chennevières
+trafic perturbé vendredi 24 mars 2017  18h04,
+en raison d'une panne de matériel,
+le trafic est perturbé sur la ligne a du rer
+
+include::./_xml-fragment.adoc[]
+
+include::./_opera.adoc[leveloffset=+1]
+
+== Code Java
+[source, java]
+.RatpFr.hello()
+----
+include::../java/fr/pomverte/RatpFr.java[tags=helloMethod]
+----
