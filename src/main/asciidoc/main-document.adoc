@@ -1,6 +1,8 @@
 = Trajet RATP
 PoMverte <pom@mail.com>
+:sectnums: on
 :toc:
+:toc-title: Table des matières
 
 == Trajet le plus rapide
 WARNING: Un incident majeur a lieu sur votre itinerairé.
